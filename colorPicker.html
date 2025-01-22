@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Project</title>
+    <!--Styling-->
+    <link rel="stylesheet" href="colorPicker.css">
+</head>
+<body>
+<!--titles division-->
+<div class="titles">
+    <h2>Color Picker Project</h2>
+    <h4>Choose a color and see it reflected in the other sections.</h4>
+</div>
+
+<!--color picker container-->
+<section class="color-picker-container">
+    <section class="color-section">
+        <div class="changing-background-color">
+        </div>
+        <div class="color-code">
+            <p></p>
+        </div>
+        <button class="generate-color btn">Generate</button>
+        <button class="saved-btn btn">Save</button>
+    </section>
+   
+   <div class="saved-color">
+    <table>
+        <thead>
+            <tr>
+               <th>Saved Color(RGB)</th>
+               <th>Color code</th>
+               <th>Action</th>
+           </tr>
+      </thead> 
+      <tbody id="saved-color-list"></tbody>
+    </table>
+   </div>
+</section>
+
+<!--JavaScript-->
+<script src="colorPicker.js"></script>
+</body>
+</html>
